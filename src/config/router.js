@@ -36,4 +36,4 @@ const routes = [
 
 export { routes };
 
-export default createBrowserRouter(routes);
+export default createBrowserRouter(routes, {basename:"/fretboard-memorize"});
